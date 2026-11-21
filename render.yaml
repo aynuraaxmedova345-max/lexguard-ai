@@ -1,0 +1,22 @@
+# Render.com uchun sozlama. Render bu faylni o'qib, saytni o'zi quradi.
+services:
+  - type: web
+    name: lexguard-ai
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-deploy.txt
+    startCommand: uvicorn lexguard_mvp:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: LEXGUARD_BACKEND
+        value: offline          # BM25 + LSA qidiruvi, ChromaDB o'rnatish shart emas
+      - key: LEXGUARD_MAX_JOBS
+        value: "20"
+      - key: LEXGUARD_MAX_SCANS
+        value: "20"
+      - key: OPENAI_API_KEY
+        sync: false             # qiymatini Render saytida kiritasiz
+      - key: LEXGUARD_DEMO_TOKEN
+        sync: false             # demo kirish kodi: faqat jamoa biladigan kod

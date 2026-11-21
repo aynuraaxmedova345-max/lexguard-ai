@@ -1,0 +1,24 @@
+{
+  "index_schema": "lexguard-hybrid-v1",
+  "source_corpus_sha256": "3f20be54198d8ec463fa8d8ce5e1f2f5396b35b81431b4cf03e80ca6c79bfe2f",
+  "indexed_at": "2026-11-20",
+  "row_count": 8071,
+  "document_ids": {
+    "civil_1": 1252,
+    "civil_2": 2649,
+    "housing": 549,
+    "family": 593,
+    "labor": 3028
+  },
+  "bm25_vocabulary": 13183,
+  "bm25_parameters": {
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "dense_model": "TF-IDF word 1-2 grams + TruncatedSVD LSA (offline approximation, NOT neural semantic embeddings)",
+  "dense_dimensions": 96,
+  "embedding_storage": "dense_lsa_vectors.npy",
+  "chroma_status": "requires import via build_chroma.py; not automatically created",
+  "source_legal_verification": "Not fully compared to live LexUZ; use per-record verification_status",
+  "chroma_lsa_status": "created"
+}

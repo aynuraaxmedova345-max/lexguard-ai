@@ -1,0 +1,1254 @@
+{
+  "backend": "offline",
+  "method": "development regression, any expected article in top 5; no live LLM evaluation; special law case excluded",
+  "document_count": 7,
+  "clause_count": 94,
+  "expected_count": 36,
+  "hits": 36,
+  "tests": [
+    {
+      "file": "Mehnat shartnomasi 01.docx",
+      "type": "mehnat",
+      "subtype": "mehnat",
+      "clauses": 11
+    },
+    {
+      "file": "Mehnat shartnomasi 02.docx",
+      "type": "mehnat",
+      "subtype": "mehnat",
+      "clauses": 18
+    },
+    {
+      "file": "Ijara shartnomasi 03.docx",
+      "type": "ijara",
+      "subtype": "residential_private",
+      "clauses": 13
+    },
+    {
+      "file": "Oldi-sotdi shartnomasi 04.docx",
+      "type": "oldi_sotdi",
+      "subtype": "retail",
+      "clauses": 13
+    },
+    {
+      "file": "Xizmat korsatish shartnomasi 05.docx",
+      "type": "xizmat",
+      "subtype": "xizmat",
+      "clauses": 13
+    },
+    {
+      "file": "Nikoh shartnomasi 06.docx",
+      "type": "nikoh",
+      "subtype": "nikoh",
+      "clauses": 13
+    },
+    {
+      "file": "Mehnat shartnomasi 07.docx",
+      "type": "mehnat",
+      "subtype": "mehnat",
+      "clauses": 13
+    }
+  ],
+  "details": [
+    {
+      "file": "Mehnat shartnomasi 01.docx",
+      "clause": "C04",
+      "expected_any": [
+        [
+          "labor",
+          "130"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "130"
+        ],
+        [
+          "labor",
+          "129"
+        ],
+        [
+          "labor",
+          "131"
+        ],
+        [
+          "labor",
+          "104"
+        ],
+        [
+          "labor",
+          "253"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 01.docx",
+      "clause": "C05",
+      "expected_any": [
+        [
+          "labor",
+          "182"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "182"
+        ],
+        [
+          "labor",
+          "185"
+        ],
+        [
+          "labor",
+          "191"
+        ],
+        [
+          "labor",
+          "207"
+        ],
+        [
+          "labor",
+          "263"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 01.docx",
+      "clause": "C06",
+      "expected_any": [
+        [
+          "labor",
+          "253"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "253"
+        ],
+        [
+          "labor",
+          "245"
+        ],
+        [
+          "labor",
+          "104"
+        ],
+        [
+          "labor",
+          "103"
+        ],
+        [
+          "labor",
+          "333"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 01.docx",
+      "clause": "C07",
+      "expected_any": [
+        [
+          "labor",
+          "262"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "262"
+        ],
+        [
+          "labor",
+          "16"
+        ],
+        [
+          "labor",
+          "189"
+        ],
+        [
+          "labor",
+          "182"
+        ],
+        [
+          "labor",
+          "190"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 01.docx",
+      "clause": "C08",
+      "expected_any": [
+        [
+          "labor",
+          "217"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "16"
+        ],
+        [
+          "labor",
+          "217"
+        ],
+        [
+          "labor",
+          "218"
+        ],
+        [
+          "labor",
+          "216"
+        ],
+        [
+          "labor",
+          "227"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 01.docx",
+      "clause": "C10",
+      "expected_any": [
+        [
+          "labor",
+          "160"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "160"
+        ],
+        [
+          "labor",
+          "161"
+        ],
+        [
+          "labor",
+          "165"
+        ],
+        [
+          "labor",
+          "163"
+        ],
+        [
+          "labor",
+          "164"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 02.docx",
+      "clause": "C08",
+      "expected_any": [
+        [
+          "labor",
+          "312"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "312"
+        ],
+        [
+          "labor",
+          "313"
+        ],
+        [
+          "labor",
+          "25"
+        ],
+        [
+          "labor",
+          "22"
+        ],
+        [
+          "labor",
+          "253"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 02.docx",
+      "clause": "C09",
+      "expected_any": [
+        [
+          "labor",
+          "266"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "104"
+        ],
+        [
+          "labor",
+          "266"
+        ],
+        [
+          "labor",
+          "25"
+        ],
+        [
+          "labor",
+          "22"
+        ],
+        [
+          "labor",
+          "103"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 02.docx",
+      "clause": "C12",
+      "expected_any": [
+        [
+          "labor",
+          "264"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "253"
+        ],
+        [
+          "labor",
+          "245"
+        ],
+        [
+          "labor",
+          "104"
+        ],
+        [
+          "labor",
+          "264"
+        ],
+        [
+          "labor",
+          "182"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 02.docx",
+      "clause": "C14",
+      "expected_any": [
+        [
+          "labor",
+          "270"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "269"
+        ],
+        [
+          "labor",
+          "270"
+        ],
+        [
+          "labor",
+          "253"
+        ],
+        [
+          "labor",
+          "245"
+        ],
+        [
+          "labor",
+          "333"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 02.docx",
+      "clause": "C16",
+      "expected_any": [
+        [
+          "labor",
+          "313"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "312"
+        ],
+        [
+          "labor",
+          "313"
+        ],
+        [
+          "labor",
+          "314"
+        ],
+        [
+          "labor",
+          "315"
+        ],
+        [
+          "labor",
+          "300"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 02.docx",
+      "clause": "C17",
+      "expected_any": [
+        [
+          "labor",
+          "163"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "161"
+        ],
+        [
+          "labor",
+          "163"
+        ],
+        [
+          "labor",
+          "160"
+        ],
+        [
+          "labor",
+          "165"
+        ],
+        [
+          "labor",
+          "168"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Mehnat shartnomasi 02.docx",
+      "clause": "C18",
+      "expected_any": [
+        [
+          "labor",
+          "172"
+        ],
+        [
+          "labor",
+          "254"
+        ]
+      ],
+      "retrieved": [
+        [
+          "labor",
+          "16"
+        ],
+        [
+          "labor",
+          "172"
+        ],
+        [
+          "labor",
+          "254"
+        ],
+        [
+          "labor",
+          "160"
+        ],
+        [
+          "labor",
+          "253"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Ijara shartnomasi 03.docx",
+      "clause": "C03",
+      "expected_any": [
+        [
+          "civil_2",
+          "612"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "612"
+        ],
+        [
+          "civil_2",
+          "615"
+        ],
+        [
+          "civil_2",
+          "613"
+        ],
+        [
+          "civil_2",
+          "609"
+        ],
+        [
+          "civil_2",
+          "602"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Ijara shartnomasi 03.docx",
+      "clause": "C05",
+      "expected_any": [
+        [
+          "civil_2",
+          "603"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "603"
+        ],
+        [
+          "civil_1",
+          "354"
+        ],
+        [
+          "civil_1",
+          "366"
+        ],
+        [
+          "civil_2",
+          "606"
+        ],
+        [
+          "civil_2",
+          "602"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Ijara shartnomasi 03.docx",
+      "clause": "C07",
+      "expected_any": [
+        [
+          "civil_2",
+          "605"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "605"
+        ],
+        [
+          "civil_2",
+          "607"
+        ],
+        [
+          "civil_2",
+          "610"
+        ],
+        [
+          "civil_2",
+          "546"
+        ],
+        [
+          "civil_2",
+          "544"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Ijara shartnomasi 03.docx",
+      "clause": "C09",
+      "expected_any": [
+        [
+          "civil_2",
+          "604"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "604"
+        ],
+        [
+          "civil_2",
+          "600"
+        ],
+        [
+          "civil_2",
+          "602"
+        ],
+        [
+          "civil_2",
+          "605"
+        ],
+        [
+          "civil_2",
+          "611"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Ijara shartnomasi 03.docx",
+      "clause": "C10",
+      "expected_any": [
+        [
+          "civil_2",
+          "615"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "615"
+        ],
+        [
+          "civil_2",
+          "616"
+        ],
+        [
+          "civil_2",
+          "613"
+        ],
+        [
+          "civil_2",
+          "551"
+        ],
+        [
+          "civil_2",
+          "545"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Ijara shartnomasi 03.docx",
+      "clause": "C11",
+      "expected_any": [
+        [
+          "civil_2",
+          "616"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "615"
+        ],
+        [
+          "civil_2",
+          "616"
+        ],
+        [
+          "civil_2",
+          "600"
+        ],
+        [
+          "civil_2",
+          "602"
+        ],
+        [
+          "civil_2",
+          "605"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Oldi-sotdi shartnomasi 04.docx",
+      "clause": "C04",
+      "expected_any": [
+        [
+          "civil_2",
+          "427"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "427"
+        ],
+        [
+          "civil_2",
+          "418"
+        ],
+        [
+          "civil_2",
+          "419"
+        ],
+        [
+          "civil_2",
+          "386"
+        ],
+        [
+          "civil_2",
+          "432"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Oldi-sotdi shartnomasi 04.docx",
+      "clause": "C06",
+      "expected_any": [
+        [
+          "civil_2",
+          "420"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "420"
+        ],
+        [
+          "civil_2",
+          "431"
+        ],
+        [
+          "civil_2",
+          "434"
+        ],
+        [
+          "civil_2",
+          "419"
+        ],
+        [
+          "civil_2",
+          "389"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Oldi-sotdi shartnomasi 04.docx",
+      "clause": "C08",
+      "expected_any": [
+        [
+          "civil_2",
+          "409"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "409"
+        ],
+        [
+          "civil_2",
+          "408"
+        ],
+        [
+          "civil_2",
+          "434"
+        ],
+        [
+          "civil_2",
+          "403"
+        ],
+        [
+          "civil_2",
+          "410"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Oldi-sotdi shartnomasi 04.docx",
+      "clause": "C09",
+      "expected_any": [
+        [
+          "civil_2",
+          "408"
+        ],
+        [
+          "civil_2",
+          "434"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "434"
+        ],
+        [
+          "civil_2",
+          "408"
+        ],
+        [
+          "civil_2",
+          "409"
+        ],
+        [
+          "civil_2",
+          "418"
+        ],
+        [
+          "civil_2",
+          "419"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Oldi-sotdi shartnomasi 04.docx",
+      "clause": "C10",
+      "expected_any": [
+        [
+          "civil_2",
+          "434"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "434"
+        ],
+        [
+          "civil_2",
+          "408"
+        ],
+        [
+          "civil_2",
+          "418"
+        ],
+        [
+          "civil_2",
+          "409"
+        ],
+        [
+          "civil_2",
+          "419"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Oldi-sotdi shartnomasi 04.docx",
+      "clause": "C12",
+      "expected_any": [
+        [
+          "civil_2",
+          "395"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "395"
+        ],
+        [
+          "civil_2",
+          "394"
+        ],
+        [
+          "civil_2",
+          "431"
+        ],
+        [
+          "civil_2",
+          "393"
+        ],
+        [
+          "civil_2",
+          "389"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Xizmat korsatish shartnomasi 05.docx",
+      "clause": "C05",
+      "expected_any": [
+        [
+          "civil_2",
+          "705"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "705"
+        ],
+        [
+          "civil_2",
+          "703"
+        ],
+        [
+          "civil_2",
+          "706"
+        ],
+        [
+          "civil_2",
+          "707"
+        ],
+        [
+          "civil_2",
+          "704"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Xizmat korsatish shartnomasi 05.docx",
+      "clause": "C07",
+      "expected_any": [
+        [
+          "civil_2",
+          "706"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "706"
+        ],
+        [
+          "civil_2",
+          "707"
+        ],
+        [
+          "civil_2",
+          "703"
+        ],
+        [
+          "civil_2",
+          "705"
+        ],
+        [
+          "civil_2",
+          "704"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Xizmat korsatish shartnomasi 05.docx",
+      "clause": "C08",
+      "expected_any": [
+        [
+          "civil_2",
+          "707"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "705"
+        ],
+        [
+          "civil_2",
+          "707"
+        ],
+        [
+          "civil_2",
+          "703"
+        ],
+        [
+          "civil_2",
+          "704"
+        ],
+        [
+          "civil_2",
+          "708"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Xizmat korsatish shartnomasi 05.docx",
+      "clause": "C09",
+      "expected_any": [
+        [
+          "civil_2",
+          "707"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "707"
+        ],
+        [
+          "civil_2",
+          "705"
+        ],
+        [
+          "civil_2",
+          "706"
+        ],
+        [
+          "civil_2",
+          "703"
+        ],
+        [
+          "civil_2",
+          "704"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Xizmat korsatish shartnomasi 05.docx",
+      "clause": "C10",
+      "expected_any": [
+        [
+          "civil_2",
+          "705"
+        ],
+        [
+          "civil_2",
+          "707"
+        ]
+      ],
+      "retrieved": [
+        [
+          "civil_2",
+          "705"
+        ],
+        [
+          "civil_2",
+          "707"
+        ],
+        [
+          "civil_2",
+          "703"
+        ],
+        [
+          "civil_2",
+          "706"
+        ],
+        [
+          "civil_2",
+          "704"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Nikoh shartnomasi 06.docx",
+      "clause": "C03",
+      "expected_any": [
+        [
+          "family",
+          "30"
+        ]
+      ],
+      "retrieved": [
+        [
+          "family",
+          "30"
+        ],
+        [
+          "family",
+          "31"
+        ],
+        [
+          "family",
+          "13"
+        ],
+        [
+          "family",
+          "32"
+        ],
+        [
+          "family",
+          "24"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Nikoh shartnomasi 06.docx",
+      "clause": "C05",
+      "expected_any": [
+        [
+          "family",
+          "31"
+        ]
+      ],
+      "retrieved": [
+        [
+          "family",
+          "31"
+        ],
+        [
+          "family",
+          "22"
+        ],
+        [
+          "family",
+          "32"
+        ],
+        [
+          "family",
+          "35"
+        ],
+        [
+          "family",
+          "20"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Nikoh shartnomasi 06.docx",
+      "clause": "C07",
+      "expected_any": [
+        [
+          "family",
+          "31"
+        ]
+      ],
+      "retrieved": [
+        [
+          "family",
+          "31"
+        ],
+        [
+          "family",
+          "121"
+        ],
+        [
+          "family",
+          "42"
+        ],
+        [
+          "family",
+          "136"
+        ],
+        [
+          "family",
+          "23"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Nikoh shartnomasi 06.docx",
+      "clause": "C09",
+      "expected_any": [
+        [
+          "family",
+          "31"
+        ]
+      ],
+      "retrieved": [
+        [
+          "family",
+          "66"
+        ],
+        [
+          "family",
+          "31"
+        ],
+        [
+          "family",
+          "75"
+        ],
+        [
+          "family",
+          "76"
+        ],
+        [
+          "family",
+          "88"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Nikoh shartnomasi 06.docx",
+      "clause": "C11",
+      "expected_any": [
+        [
+          "family",
+          "31"
+        ]
+      ],
+      "retrieved": [
+        [
+          "family",
+          "117"
+        ],
+        [
+          "family",
+          "31"
+        ],
+        [
+          "family",
+          "118"
+        ],
+        [
+          "family",
+          "120"
+        ],
+        [
+          "family",
+          "108"
+        ]
+      ],
+      "hit": true
+    },
+    {
+      "file": "Nikoh shartnomasi 06.docx",
+      "clause": "C12",
+      "expected_any": [
+        [
+          "family",
+          "32"
+        ]
+      ],
+      "retrieved": [
+        [
+          "family",
+          "32"
+        ],
+        [
+          "family",
+          "31"
+        ],
+        [
+          "family",
+          "26"
+        ],
+        [
+          "family",
+          "34"
+        ],
+        [
+          "family",
+          "24"
+        ]
+      ],
+      "hit": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Secrets and local runtime files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+*.tmp
+cloudflared.exe
+LexGuard_QR.png
+LexGuard_URL.txt
+indexes/chroma_db/chroma.sqlite3
+indexes/chroma_db/chroma.sqlite3-wal
+indexes/chroma_db/chroma.sqlite3-shm
+uploads/
+reports/

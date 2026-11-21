@@ -1,0 +1,3 @@
+# Saytni serverda (Render) ishga tushirish uchun kutubxonalar
+-r requirements-mvp.txt
+reportlab>=4.0

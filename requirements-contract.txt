@@ -1,0 +1,4 @@
+pymupdf>=1.24
+python-docx>=1.1
+# Faqat AI rejimi uchun ixtiyoriy:
+# google-genai>=1.0
